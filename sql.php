@@ -1,7 +1,7 @@
 <?php 
-// replace *** with your database credentials
-$host="localhost";
-$user="root";
-$project="projet";
-$ps="";
+$host="localhost";//default for xampp
+$user="root";//default for xampp
+$project="projet";//db ucreate in phpmyadmin
+$ps="";//default for xampp
 ?>
+
