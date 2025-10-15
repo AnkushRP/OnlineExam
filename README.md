@@ -1,5 +1,4 @@
-# DBMS-MINI-Project
- DBMS project on topic Online Examination System
+#  DBMS project on topic Online Examination System
 
 ## Acknowledgements
 
@@ -66,6 +65,7 @@ The project includes a secure password reset feature using OTP verification.
 7. open http://localhost/ (name of folder u have cloned in htdocs folder) . you see the home page.
 8. Also u can open http://localhost/phpmyadmin to make any changes.
 9. For password reset mail->Open MailHog UI: http://127.0.0.1:8025 ->for this [mailhog](https://github.com/mailhog/MailHog/releases/download/v1.0.1/MailHog_windows_386.exe) needed to be installed, and run .exe file of it).
+
 
 
 
