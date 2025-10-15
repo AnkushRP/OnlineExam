@@ -65,7 +65,8 @@ The project includes a secure password reset feature using OTP verification.
 6. Change credentials in sql.php file with your database credentials(for xaamp default credentials available, database name we shud give same as created in phpmyadmin(in this case it is "projet").
 7. open http://localhost/ (name of folder u have cloned in htdocs folder) . you see the home page.
 8. Also u can open http://localhost/phpmyadmin to make any changes.
-9. For password reset mail->Open MailHog UI: http://127.0.0.1:8025 (for this https://github.com/mailhog/MailHog/releases/download/v1.0.1/MailHog_windows_386.exe needed to be installed) and run .exe file of it).
+9. For password reset mail->Open MailHog UI: http://127.0.0.1:8025->for this [mailhog](https://github.com/mailhog/MailHog/releases/download/v1.0.1/MailHog_windows_386.exe) needed to be installed, and run .exe file of it).
+
 
 
 
