@@ -1,16 +1,27 @@
 # DBMS-MINI-Project
  DBMS project on topic Online Examination System
 
+## Acknowledgements
+
+- Original project by [rakesh-m-r](https://github.com/rakesh-m-r)
+- PHPMailer for email handling: [PHPMailer GitHub](https://github.com/PHPMailer/PHPMailer)
+
+### Modifications by me
+
+- Integrated MailHog for local email testing
+- Fixed SMTP and password reset issues
+
+This project retains the original Apache License 2.0. See the LICENSE file for details.
+
+Note: This project is for demonstration purposes. Email functionality uses MailHog to simulate sending OTPs. No real Gmail or SMTP authentication required. Passwords are hashed using PHP crypt() before storing in the database.
+
 <b>Technology Used:</b>
 
 <b>Front-End:</b> HTML,CSS,JavaScript
 
 <b>Back-End:</b> PHP,MySql
 
-<b>Link: <a href="https://rakeshmariyaplar.herokuapp.com/"> rakeshmariyaplar.herokuapp.com/</a></b>
-
-
-<b>Software Used:</b>WAMP
+<b>Software Used:</b>XAAMP
 
 ONLINE EXAMINATION SYSTEM is a web-based examination system where
 examinations are given online. either through the internet or intranet using computer
@@ -29,12 +40,13 @@ no need of using extra thing like paper, pen etc.
 
 
 Functional Specification:
-
-1. Registering new Student
-2. Getting the student and staff info and storing it to databases
-3. Getting the type and number of question paper
-4.Generating result after the exam.
-
+This is a simple Online Examination System mini-project developed using PHP and MySQL.
+The project includes a secure password reset feature using OTP verification.
+1. Student and Staff login system
+2. Password reset via OTP
+3. OTP emails captured locally using MailHog (no real email required)
+4. MySQL database for user storage
+5. Simple and responsive frontend
 
 <b>Schema Diagram</b>
  <img src="https://imgur.com/CEVPaEm.png" width=100%>
@@ -43,23 +55,14 @@ Functional Specification:
 <b>ER-Diagram</b>
 <img src="https://imgur.com/cXSgrXO.png" width=100%>
 
-<b>Snapshots</b>
-
-<img src="https://imgur.com/k8uCKmF.png" width=100%>
-<img src="https://imgur.com/elXTDUL.png" width=100%>
-<img src="https://imgur.com/boG3UD5.png" width=100%>
-
-<img src="https://imgur.com/k3eLTbx.png" width=100%>
-
-<img src="https://imgur.com/rqazZfl.png" width=100%>
-
-<img src="https://imgur.com/gdsCmoY.png" width=100%>
-
-<img src="https://imgur.com/tReWRcw.png" width=100%>
 
 <b>How to run this project locally</b>
-1. clone this repo to www folder in WAMP software
-2. Open phpmydmin & Create new database with name projet
-3. import the SQL file present in SQL Files Folder using import option in phpmyadmin.
-4. changes credentials in sql.php file with your database credentials.
-5. open localhost in browser. you see the home page
+1. Install XAMPP (PHP + Apache + MySQL + phpmyadmin + fakesendmail).
+2. clone this repo to htdocs folder in XAAMP software.
+3. Open [phpmydmin](http://localhost/phpmyadmin) & Create new database with name projet.
+4. import the SQL file present in SQL Files Folder using import option in phpmyadmin.
+5. changes credentials in sql.php file with your database credentials(for xaamp default credentials available, database name we shud give same as created in phpmyadmin(in this case it is "projet").
+6. open http://localhost/(name of folder u have cloned in htdocs folder) in browser. you see the home page.
+7. Also u can open http://localhost/phpmyadmin to make any changes.
+8. For password reset mail->Open MailHog UI: http://127.0.0.1:8025 (for this mailhog needed to be installed and run .exe file of it).
+
