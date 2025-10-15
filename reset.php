@@ -40,7 +40,7 @@ $mailConfig = require __DIR__ . '/mail_config.php';
     </style>
 </head>
 <body style="margin:0;height: 100%;outline: none;color: #042A38 !important;">
-<div class="bg" style="font-weight: bolder;background-image: url(./images/rakesh.png);
+<div class="bg" style="font-weight: bolder;background-image: url(./images/Ankush.png);
 background-repeat: no-repeat;padding: 0;margin: 0;background-size: cover;
 font-family: 'Courier New', Courier, monospace;opacity: 0.9;height: auto;padding-bottom: 5vw;">
     <center>
@@ -98,7 +98,7 @@ if (isset($_POST['submit'])) {
         $cpassword = mysqli_real_escape_string($conn, $_POST['cpass1']);
 
         if ($password === $cpassword) {
-            $enc_pass = crypt($password, 'rakeshmariyaplarrakesh');
+            $enc_pass = crypt($password, 'mynewsalt');
             $sql = "SELECT * FROM $type WHERE mail='$username'";
             $res = mysqli_query($conn, $sql);
 
@@ -161,5 +161,6 @@ if (isset($_POST['submit'])) {
     }
 }
 ?>
+
 
 
