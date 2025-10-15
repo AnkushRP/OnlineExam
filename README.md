@@ -59,10 +59,12 @@ The project includes a secure password reset feature using OTP verification.
 <b>How to run this project locally</b>
 1. Install XAMPP (PHP + Apache + MySQL + phpmyadmin + fakesendmail).
 2. clone this repo to htdocs folder in XAAMP software.
-3. Open [phpmydmin](http://localhost/phpmyadmin) & Create new database with name projet.
-4. import the SQL file present in SQL Files Folder using import option in phpmyadmin.
-5. changes credentials in sql.php file with your database credentials(for xaamp default credentials available, database name we shud give same as created in phpmyadmin(in this case it is "projet").
-6. open http://localhost/(name of folder u have cloned in htdocs folder) in browser. you see the home page.
-7. Also u can open http://localhost/phpmyadmin to make any changes.
-8. For password reset mail->Open MailHog UI: http://127.0.0.1:8025 (for this mailhog needed to be installed and run .exe file of it).
+3. Open xampp-control.exe file and then click start for Apache and MySQL.
+4. Open [phpmydmin](http://localhost/phpmyadmin) & Create new database with name projet.
+5. import the SQL file present in SQL Files Folder using import option in phpmyadmin.
+6. changes credentials in sql.php file with your database credentials(for xaamp default credentials available, database name we shud give same as created in phpmyadmin(in this case it is "projet").
+7. open http://localhost/(name of folder u have cloned in htdocs folder) in browser. you see the home page.
+8. Also u can open http://localhost/phpmyadmin to make any changes.
+9. For password reset mail->Open MailHog UI: http://127.0.0.1:8025 (for this mailhog needed to be installed and run .exe file of it).
+
 
