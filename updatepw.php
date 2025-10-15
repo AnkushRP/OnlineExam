@@ -42,7 +42,7 @@ $type = $_SESSION['type'];
     </style>
 </head>
 <body style="margin:0;height: 100%;outline: none;">
-<div class="bg" style="font-weight: bolder;background-image: url(./images/rakesh.png);
+<div class="bg" style="font-weight: bolder;background-image: url(./images/Ankush.png);
 background-repeat: no-repeat;padding: 0;margin: 0;background-size: cover;
 font-family: 'Courier New', Courier, monospace;opacity: 0.9;height: auto;padding-bottom: 5vw;">
     <center>
@@ -103,3 +103,4 @@ if (isset($_POST['submit1'])) {
     }
 }
 ?>
+
