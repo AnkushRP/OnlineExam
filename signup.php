@@ -161,7 +161,7 @@ require 'sql.php';
 </style>
 
 <body style="margin: 0;padding: 0;outline: none;height: 100%;min-height: 100%;color: #042A38 !important">
-    <div style="font-family: 'Courier New', Courier, monospace;margin: 0;padding: 0;background-color: #fff;height: 100%;width: 100%;padding-bottom: 5vw;background-image: url(images/rakesh.png);height: auto !important;background-repeat: no-repeat;background-size:cover;">
+    <div style="font-family: 'Courier New', Courier, monospace;margin: 0;padding: 0;background-color: #fff;height: 100%;width: 100%;padding-bottom: 5vw;background-image: url(images/Ankushsh.png);height: auto !important;background-repeat: no-repeat;background-size:cover;">
         <center>
             <h1 style="text-transform: uppercase;padding: 2vw;background-color: #fff;color: #042A38;margin-top:0;">ONLINE
                 Examination System</h1>
@@ -253,4 +253,5 @@ require 'sql.php';
 </script>
 
 </html>
+
 
