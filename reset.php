@@ -139,7 +139,9 @@ if (isset($_POST['submit'])) {
                             <h1 style='color:#042A38;'>$otp</h1>
                             <p>Please enter this code in the next step to confirm your password reset.</p>
                             <br><br>Thank you,<br>Online Examination System
-                        </div>
+                                    <br><br>
+                            <a href='mailto:osesvit2021@gmail.com' style='color:#ffffff;background-color:#042A38;padding:10px 20px;text-decoration:none;border-radius:5px;'>Contact Us</a>
+                            </div>
                     ";
 
                     $mail->send();
@@ -159,3 +161,4 @@ if (isset($_POST['submit'])) {
     }
 }
 ?>
+
